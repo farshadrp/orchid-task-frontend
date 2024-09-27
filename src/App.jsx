@@ -1,7 +1,7 @@
 import { Routes, Route } from 'react-router-dom';
 
 import NotFoundPage from './pages/404';
-import MainLayout from './components/layout/mainLayout';
+import MainLayout from './components/layout/MainLayout';
 import { privateRoutes, publicRoutes } from './routes';
 
 const App = () => {
