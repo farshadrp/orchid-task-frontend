@@ -1,5 +1,5 @@
-import { initialState } from './initialState';
-import { GET_PROJECTS, GET_SINGLE_PROJECT } from './types';
+import { initialState } from "./initialState";
+import { GET_PROJECTS, GET_SINGLE_PROJECT } from "./types";
 
 const projectReducer = (state = initialState, action) => {
   switch (action.type) {

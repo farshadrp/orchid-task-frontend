@@ -3,12 +3,12 @@
     {
       "id": "1",
       "name": "Test Name 1",
-      "desctiption": "Test Desctiption 1",
+      "description": "Test description 1",
       "tasks": [
         {
           "id": "1",
           "name": "Test Name 1",
-          "desctiption": "Test Desctiption 1",
+          "description": "Test description 1",
           "dueDate": "2024",
           "status": {
             "value": "1",
@@ -18,7 +18,7 @@
         {
           "id": "2",
           "name": "Test Name 2",
-          "desctiption": "Test Desctiption 2",
+          "description": "Test description 2",
           "dueDate": "2024",
           "status": {
             "value": "3",

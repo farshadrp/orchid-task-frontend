@@ -1,14 +1,14 @@
-import { Routes, Route } from 'react-router-dom';
+import { Routes, Route } from "react-router-dom";
 
-import NotFoundPage from './pages/404';
-import MainLayout from './components/layout/MainLayout';
-import { privateRoutes, publicRoutes } from './routes';
+import NotFoundPage from "./pages/404";
+import MainLayout from "./components/layout/MainLayout";
+import { privateRoutes, publicRoutes } from "./routes";
 
 const App = () => {
   const token = true;
 
   return (
-    <div className='App'>
+    <div className="App">
       <MainLayout>
         <Routes>
           {!token &&
@@ -29,7 +29,7 @@ const App = () => {
               />
             ))}
 
-          <Route path='*' element={<NotFoundPage />} />
+          <Route path="*" element={<NotFoundPage />} />
         </Routes>
       </MainLayout>
     </div>

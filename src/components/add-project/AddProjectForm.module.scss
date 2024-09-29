@@ -1,14 +1,13 @@
 .formWrapper {
   width: 100%;
   height: 100%;
-  padding: 50px;
   display: flex;
   align-items: center;
   justify-content: flex-start;
   flex-direction: column;
 
   .inputWrapper {
-    width: 100%;
+    width: 50%;
     display: flex;
     flex-direction: column;
     align-items: flex-start;
@@ -20,12 +19,17 @@
     }
 
     input {
-      all: unset;
+      outline: none;
+      font-family: inherit;
       width: 100%;
       height: 50px;
       border-radius: 8px;
-      border: 1px solid dodgerblue;
+      border: 1px solid #333;
       padding: 0 20px;
+    }
+
+    input:focus {
+      border: 1px solid dodgerblue;
     }
 
     span {
@@ -37,7 +41,7 @@
   }
 
   button {
-    width: 30%;
+    width: 50%;
     height: 50px;
     border-radius: 8px;
     color: white;
